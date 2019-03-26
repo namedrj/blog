@@ -25,5 +25,6 @@ DocumentRoot "E:/1php"
 </VirtualHost>
 ```
 【关于 mysql 编码】
+查询编码：`show variables like 'character_set%';`
 在[mysqld]段落增加：
 `character_set_server=utf8` 。重启MySQL服务即可。
